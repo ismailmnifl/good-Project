@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="styles.css" />
+		<script src="jquery-3.2.1.js"></script>
+		<script>
+			$(document).ready(function () {
+				$("#flip").click(function () {
+					$("#panel").slideToggle("slow");
+				});
+			});
+		</script>
+		<style>
+			.button {
+				background-color: #4caf50;
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				position: relative;
+				left: 600px;
+			}
+			#panel,
+			#flip {
+				padding: 5px;
+				text-align: center;
+				background-color: #e5eecc;
+				border: solid 1px #c3c3c3;
+			}
+			#panel {
+				padding: 50px;
+				display: none;
+			}
+			img {
+				max-width: 70%;
+				height: auto;
+			}
+			.definition {
+				padding: 5px;
+				margin: 20px;
+				text-align: center;
+				background-color: #e5eecc;
+				border: solid 1px #c3c3c3;
+			}
+			h3 {
+				color: black;
+			}
+			body {
+				margin: 0;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+
+			.topnav {
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			.topnav a {
+				float: left;
+				color: #f2f2f2;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-size: 17px;
+			}
+
+			.topnav a:hover {
+				background-color: #ddd;
+				color: black;
+			}
+
+			.topnav a.active {
+				background-color: #4caf50;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="topnav">
+			<a class="active" href="index.html">Home</a>
+			<a href="#news">News</a>
+			<a href="#contact">Contact</a>
+			<a href="#about">About</a>
+		</div>
+
+		<h3 style="font-size: 40px; position: relative; text-align: center">
+			Prague
+		</h3>
+
+		<div style="font-weight: bold" id="flip">
+			cliquez ici pour voir les photos de Prague
+		</div>
+		<div id="panel">
+			<img src="prague-image1.jpg" width="460" height="345" />
+			<img src="prague-image2.jpg" width="460" height="345" />
+		</div>
+
+		<div class="definition">
+			<h3>Définition :</h3>
+
+			<p>
+				et la plus grande ville de la République tchèque. Elle est à la
+				fois l’une des quatorze régions du pays, le chef-lieu de la
+				région administrative de Bohême-Centrale2,3 et la capitale de la
+				région historique de Bohême. Elle est traversée par la Vltava
+				(Moldau en allemand) et compte 1 280 508 habitants en 20164.
+				Prague est située en plein cœur de l'Europe centrale. Elle fut
+				par le passé capitale du royaume de Bohême, du Saint-Empire
+				romain germanique et de la Tchécoslovaquie (ČSR, ČSSR et enfin
+				ČSFR). La ville aux mille tours et mille clochers (qui est
+				encore la caractéristique architecturale de la ville) a
+				miraculeusement échappé aux destructions de la Seconde Guerre
+				mondiale et offre une architecture mêlant les styles préroman,
+				roman, gothique, baroque, rococo, Art nouveau et cubiste. En
+				1968, le Printemps de Prague et l'écrasement du « Socialisme à
+				visage humain » par les troupes de l'URSS et du pacte de
+				Varsovie ont profondément marqué les Praguois et inspiré la
+				culture des années 1960-1980. Depuis 1992, le centre ville
+				historique est inscrit sur la liste du patrimoine mondial par
+				l'UNESCO.
+			</p>
+
+			<h3>Histoire :</h3>
+
+			<p>
+				L'histoire de Prague est très riche et associe le duché de
+				Bohême avec les grands moments de l'histoire médiévale
+				européenne. Par la suite, l'accession de Prague comme capitale
+				du Saint Empire Germanique en fait véritablement le cœur de
+				l'Europe. L'éloignement de Prague de la vie européenne
+				occidentale résulte de la scission opérée par le communisme.
+			</p>
+
+			<h3>Reconversion économique de Prague:</h3>
+
+			<p>
+				Prague est le centre économique de la République tchèque. Elle
+				concentre les activités économiques centrales du pays telles que
+				la Bourse de Prague, la Banque nationale tchèque, les Chemins de
+				fer tchèques, etc. Les sièges sociaux des principales
+				entreprises comme ČEZ ou des banques comme Československá
+				obchodní banka et Komerční banka. En plus de l'industrie du film
+				et de l'industrie du tourisme, on trouve à Prague de nombreuses
+				entreprises de l'industrie de transformation. Le produit
+				intérieur brut de la ville s'élevait à 38,5 milliards de euros
+				en 2010, ce qui représente une contribution au PIB national de
+				25,8 %, pour environ 12 % de la population globale du pays. Le
+				PIB par habitant atteint 226 % de celui des autres régions
+				tchèques, supérieur également à la moyenne de l'Union européenne
+				: en PIB à parité de pouvoir d’achat, Prague se situe à 72 %
+				au-dessus de la moyenne européenne40.
+			</p>
+
+			<h3>Géographie de Prague :</h3>
+
+			<p>
+				Prague bénéficie d'une situation centrale au niveau européen, se
+				situant selon un axe nord-sud à mi-distance de la mer Baltique
+				(à 471 km à vol d'oiseau de Rostock) et de la mer Adriatique (à
+				496 km de Trieste) et selon un axe est-ouest à mi-distance de
+				l'océan Atlantique (à 1 256 km de Saint-Nazaire) et de la mer
+				Noire (à 1 269 km d'Odessa)10. Au niveau national, la capitale
+				tchèque est située au nord-ouest du pays et au centre de la
+				région historique de Bohême. Prague est située à 250 km au
+				nord-ouest de Vienne, à 280 km au sud de Berlin et à 300 km au
+				nord-est de Munich..
+			</p>
+
+			<h3>Tourisme :</h3>
+
+			<p>
+				Le tourisme est un secteur d'activité important à Prague, avec
+				un nombre annuel de visiteurs qui a atteint 4,7 millions en
+				2010, représentant plus de 12 millions de nuitées43. Il s'agit
+				en majorité de visiteurs étrangers (4,1 millions en 2010) parmi
+				lesquels arrivent en tête les Allemands (603 000), suivis des
+				Britanniques (323 000), des Italiens (277 000), des Américains
+				(271 000) et des Russes (268 000). Le secteur emploie environ 30
+				000 personnes dans la capitale tchèque
+			</p>
+		</div>
+	</body>
+	<html></html>
+</html>

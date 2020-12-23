@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="styles.css" />
+		<script src="jquery-3.2.1.js"></script>
+		<script>
+			$(document).ready(function () {
+				$("#flip").click(function () {
+					$("#panel").slideToggle("slow");
+				});
+			});
+		</script>
+		<style>
+			.button {
+				background-color: #4caf50;
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				position: relative;
+				left: 600px;
+			}
+			#panel,
+			#flip {
+				padding: 5px;
+				text-align: center;
+				background-color: #e5eecc;
+				border: solid 1px #c3c3c3;
+			}
+			#panel {
+				padding: 50px;
+				display: none;
+			}
+			img {
+				max-width: 70%;
+				height: auto;
+			}
+			.definition {
+				padding: 5px;
+				margin: 20px;
+				text-align: center;
+				background-color: #e5eecc;
+				border: solid 1px #c3c3c3;
+			}
+			h3 {
+				color: black;
+			}
+			body {
+				margin: 0;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+
+			.topnav {
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			.topnav a {
+				float: left;
+				color: #f2f2f2;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-size: 17px;
+			}
+
+			.topnav a:hover {
+				background-color: #ddd;
+				color: black;
+			}
+
+			.topnav a.active {
+				background-color: #4caf50;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="topnav">
+			<a class="active" href="index.html">Home</a>
+			<a href="#news">News</a>
+			<a href="#contact">Contact</a>
+			<a href="#about">About</a>
+		</div>
+
+		<h3 style="font-size: 40px; position: relative; text-align: center">
+			Paris
+		</h3>
+
+		<div style="font-weight: bold" id="flip">
+			cliquez ici pour voir les photos de Paris
+		</div>
+		<div id="panel">
+			<img src="Paris-image1.jpeg" width="460" height="345" />
+			<img src="prague-image2.jpg" width="460" height="345" />
+		</div>
+
+		<div class="definition">
+			<h3>Définition :</h3>
+
+			<p>
+				Paris est la capitale de la France. Elle se situe au cœur d'un
+				vaste bassin sédimentaire aux sols fertiles et au climat
+				tempéré, le bassin parisien, sur une boucle de la Seine, entre
+				les confluents de celle-ci avec la Marne et l'Oise. Ses
+				habitants s’appellent les Parisiens. Paris est également le
+				chef-lieu de la région Île-de-France et l'unique commune
+				française qui est en même temps un département. Commune centrale
+				de la Métropole du Grand Paris, créée en 2016, elle est divisée
+				en arrondissements, comme les villes de Lyon et de Marseille, au
+				nombre de vingt. L’État y dispose de prérogatives particulières
+				exercées par le préfet de police de Paris. Ville la plus peuplée
+				de France, elle est troisième parmi les aires urbaines
+				européennes derrière Moscou et Istanbul et la 29e plus peuplée
+				du monde. Paris compte 2,22 millions d'habitants au 1er janvier
+				2014. L'agglomération parisienne s’est largement développée au
+				cours du xxe siècle, rassemblant 10,66 millions d'habitants au
+				1er janvier 2014, et son aire urbaine (l'agglomération et la
+				couronne périurbaine) comptait 12,48 millions d'habitants.
+			</p>
+
+			<h3>Histoire :</h3>
+
+			<p>
+				En 508, après avoir conquis la majeure partie de la Gaule,
+				Clovis fait de Paris sa capitalec 5. Il y établit sa résidence
+				principale (Palais des Thermes), et y fait construire plusieurs
+				édifices religieux, dont la basilique des Saints-Apôtres, où il
+				est enterré ; le rôle de la cité doit cependant être relativisé,
+				dans la mesure où il n’existe pas alors d’administration royale.
+				Tout au long des vie et viie siècles, Paris garde une importance
+				particulièrec 6, même si les divisions du royaume de Clovis
+				entre ses héritiers limitent son rayonnement. Childebert Ier y
+				fait ainsi construire la plus grande cathédrale de la Gaule (la
+				cathédrale Saint-Étienne), tandis que Childéric II fait rénover
+				les arènes gallo-romaines. Durant cette période, revitalisée par
+				les fondations monastiques81 et sa fonction de capitale82, la
+				ville commence probablement à s’étendre sur la rive droitef 4,
+				alors que la rive gauche est réoccupée.
+			</p>
+
+			<h3>Reconversion économique de Paris :</h3>
+
+			<p>
+				Avec un produit intérieur brut (PIB) de 607 milliards d'euros
+				(845 milliards de dollars) en 2011 soit un peu plus de 30 % du
+				PIB françaisb 18, la région parisienne est une des plus riches
+				d'Europe : si elle était un pays, elle serait la dix-septième
+				plus grande économie de la planète, produisant plus de richesses
+				que les Pays-Bas et la Turquie, et pratiquement autant que
+				l'Indonésie216. La ville est, avec sa banlieue, la capitale
+				économique et commerciale de la France, ainsi que sa première
+				place financière et boursière. Elle accueillera en 2019
+				l'Autorité bancaire européenne, après le retrait du Royaume-Uni
+				de l'Union européenne217. La région parisienne, avec un produit
+				intérieur brut (PIB) de 649 milliards d'euros en 2014, est un
+				acteur économique européen majeur. L'Île-de-France est la
+				huitième région la plus riche d'Europe avec un PIB par habitant
+				46 600 € en 2013 contre 86 400 € pour le Grand Londres et 68 500
+				€ pour Luxembourg218.
+			</p>
+
+			<h3>Monuments et lieux Historiques :</h3>
+
+			<p>
+				Paris compte plus de 1 800 immeubles classés ou inscrits à
+				l'inventaire des monuments historiques, dont près de cent lieux
+				de culte. Les monuments les plus célèbres de Paris datent
+				d'époques variées. Ils se trouvent souvent dans le centre et sur
+				les rives de la Seine. Les quais de Seine du Pont de Sully au
+				Pont de Bir-Hakeim constituent l'un des plus beaux paysages
+				fluviaux urbains et sont d'ailleurs classés à l'inventaire du
+				patrimoine mondial de l'UNESCO. On y trouve notamment, d'est en
+				ouest : Notre-Dame, le Louvre, les Invalides, le pont
+				Alexandre-III, le Grand Palais, le musée du quai Branly, la Tour
+				Eiffel et le Trocadéro. Plus à l'est, d'importants édifices
+				contemporains ont été construits (le ministère des Finances, le
+				site François Mitterrand de la bibliothèque nationale de France,
+				etc.). On trouve sur l'île de la Cité des monuments anciens
+				emblématiques. La cathédrale Notre-Dame, de style gothique,
+				principalement bâtie du xiie siècle au xiiie siècle, a été très
+				restaurée au xixe siècle et sa façade occidentale nettoyée à la
+				fin du xxe siècle. Elle est symboliquement le noyau de Paris et
+				les distances routières françaises sont mesurées à partir de son
+				parvis. L'ancien palais de la Conciergerie fut le siège du
+				pouvoir royal jusqu'au règne de Charles V, dans la seconde
+				moitié du xive siècle. Une partie du bâtiment fut dès lors
+				aménagée en prison et fut notamment le lieu de détention
+				d'illustres personnalités de l'Ancien Régime avant leur
+				exécution, lors de la Révolution française. La Sainte-Chapelle,
+				construite à proximité de la Conciergerie, est considérée comme
+				un chef-d'œuvre de l'architecture gothique. Le pont Neuf, à
+				l'extrémité occidentale de l'île et datant de la fin du xvie
+				siècle, est le plus vieux pont de Paris en l'état
+			</p>
+
+			<h3>Cafés, restaurants et brasseries :</h3>
+
+			<p>
+				Les cafés sont rapidement devenus une partie intégrante de la
+				culture française de par leur aspect, en particulier à partir de
+				l'ouverture du café de la Régence au Palais-Royal en 1681 puis,
+				huit ans plus tard, du café Procope sur la rive gauche. Les
+				cafés dans les jardins du Palais-Royal sont devenus
+				particulièrement populaires au cours du xviiie siècle et peuvent
+				être considérés comme les premières « terrasses de café » à
+				Paris. Celles-ci ne connurent pas d'expansion jusqu'à ce que les
+				trottoirs et les boulevards aient commencé à apparaître au
+				milieu du xixe siècle. À la Révolution, les cuisiniers des
+				princes et des nobles créèrent le concept de restaurant. Le
+				premier établissement annonciateur de « la restauration » semble
+				avoir été à Paris La Tour d'Argent, fondé en 1582 par un certain
+				Rourtaud ; l'endroit aurait contribué à l'utilisation de la «
+				fourchette » en France. Le premier restaurant, dans l'acception
+				moderne, est ouvert à Paris, rue des Poulies, en 1765 par un
+				marchand de bouillon nommé Boulanger (dit Champ d'Oiseau) qui
+				invente la « carte de restaurant » et le mot « restaurant », et
+				en 1782, Antoine Beauvilliers, cuisinier du prince de Condé et
+				officier de bouche du comte de Provence, reprend la formule et
+				ouvre, dans un cadre raffiné, la Grande Taverne de Londres, au
+				26 rue de Richelieu. C'est là le premier véritable « grand
+				restaurant » de Paris, qui restera pendant plus de vingt ans
+				sans rival. Mais c'est à partir de la Révolution française que
+				le phénomène prend de l'ampleur avec la fuite des nobles qui
+				laissent sans emploi leur cuisinier, alors que de nombreux
+				provinciaux arrivent à Paris où ils ne comptent pas de famille
+				qui puisse les nourrir. Dès 1789, on compte à Paris une centaine
+				de restaurants fréquentés par la bonne société, regroupés autour
+				du Palais-Royal. Trente ans après on en dénombre 3 000.
+			</p>
+		</div>
+	</body>
+	<html></html>
+</html>

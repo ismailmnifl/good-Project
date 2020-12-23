@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<script src="jquery-3.2.1.js"></script>
+
+		<script>
+			$(document).ready(function () {
+				$("#flip").click(function () {
+					$("#panel").slideToggle("slow");
+				});
+			});
+		</script>
+
+		<style>
+			.button {
+				background-color: #4caf50;
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				position: relative;
+				left: 600px;
+			}
+			#panel,
+			#flip {
+				padding: 5px;
+				text-align: center;
+				background-color: #e5eecc;
+				border: solid 1px #c3c3c3;
+			}
+
+			img {
+				max-width: 70%;
+				height: auto;
+			}
+			.definition {
+				padding: 5px;
+				margin: 20px;
+				text-align: center;
+				background-color: #e5eecc;
+				border: solid 1px #c3c3c3;
+			}
+			h3 {
+				color: black;
+			}
+			body {
+				margin: 0;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+
+			.topnav {
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			.topnav a {
+				float: left;
+				color: #f2f2f2;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-size: 17px;
+			}
+
+			.topnav a:hover {
+				background-color: #ddd;
+				color: black;
+			}
+
+			.topnav a.active {
+				background-color: #4caf50;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="topnav">
+			<a class="active" href="index.html">Home</a>
+			<a href="#news">News</a>
+			<a href="#contact">Contact</a>
+			<a href="#about">About</a>
+		</div>
+
+		<h3 style="font-size: 40px; position: relative; text-align: center">
+			Dubai
+		</h3>
+
+		<div style="font-weight: bold" id="flip">
+			cliquez ici pour voir les photos de Dubai
+		</div>
+		<div id="panel">
+			<img src="dubai-image1.jpg" width="460" height="345" />
+			<img src="dubai-image4.jpg" width="460" height="345" />
+		</div>
+		<div class="definition">
+			<h3>Définition :</h3>
+
+			<p>
+				est la première ville des Émirats arabes unis (devant la
+				capitale fédérale Abou Dabi). Située sur le golfe Persique, elle
+				est capitale de l'émirat de Dubaï, et compte plus d'un million
+				d'habitants<br />
+				(cependant, avec les villes de Charjah, Ajman et Oumm al
+				Qaïwaïn, elles-mêmes capitales de leurs émirats respectifs, elle
+				forme une agglomération qui dépasse 2,3 millions d'habitants en
+				2010). Dubaï est également le premier port du pays.
+			</p>
+
+			<h3>Histoire :</h3>
+
+			<p>
+				a première mention du site de Dubaï remonte au Livre de
+				géographie de l'Andalou Al-Bakri au xe siècle. Localisé dans une
+				des régions les plus inhospitalières d'Arabie, Dubaï demeure
+				longtemps éclipsé par ses voisins, notamment Charjah et Ras el
+				Khaïmah, au nord-est et près du détroit d'Ormuz, et Abou Dabi,
+				au sud-ouest. En 1580, le marchand vénitien Gaspero Balbi, en
+				voyage dans la région, évoque Dibei, bourgade qu'il associe à la
+				pêche aux perles, et probablement composée uniquement de
+				quelques huttes barasti. Celle-ci demeurera l'activité
+				principale des habitants de la région, avec l'agriculture
+				vivrière. Cependant, jusqu'à la fin du xviiie siècle, Dubaï est
+				insignifiant par rapport aux autres ports précités, ainsi, que
+				de Sohar (Oman), Ormuz et Bandar Lengeh (Iran) et Dibba et Khor
+				Fakkan (golfe persique)
+			</p>
+
+			<h3>Reconversion économique de Dubaï :</h3>
+
+			<p>
+				Afin de mener à bien la politique de reconversion de l'économie
+				de Dubaï vers les nouvelles technologies, le commerce et le
+				tourisme (ou les deux dans le cadre du festival de shopping de
+				Dubaï), le gouvernement s'efforce d'attirer capitaux et
+				entreprises tout en maintenant une politique de grands travaux,
+				à l'origine de nombreux complexes urbains, hôteliers ou
+				balnéaires. Le gigantisme et le caractère novateur de ces
+				réalisations tournent les regards du monde entier vers l'émirat
+				et forcent sa renommée. Les constructeurs sont le plus souvent
+				Nakheel ou Emaar Properties, groupes bien implantés dans
+				l'émirat et aux visées maintenant internationales. D'autres
+				projets importants tels que le Business Bay ou celui qui prévoit
+				de recouvrir une montagne d'un dôme puis de l'enneiger afin de
+				créer une petite station de ski sont en préparation. Nombre de
+				ces projets avortent mais ils sont toujours source d'une
+				publicité dont se nourrit la cité-État. Des quartiers
+				spécialisés dans certains domaines ont été mis en place : la
+				Dubai HealthCare City18 est une zone franche médicale destinée à
+				attirer les meilleures institutions de santé et proposer des
+				soins de très haut niveau, Dubai Media City et Dubai Internet
+				City sont des zones libres où se sont installées de grandes
+				sociétés des médias (MBC, CNN, Yahoo!, Reuters et AP) et
+				d'informatique (EMC Corporation, Oracle, Microsoft et IBM),
+				Dubiotech est spécialisé dans les recherches biologiques et
+				l’Humanitarian City accueille dans un centre différentes
+				organisations non gouvernementales ainsi que l'UNOPS, un
+				organisme des Nations unies. Ces quartiers permettront à Dubaï
+				d'acquérir une certaine reconnaissance internationale et de
+				devenir un lieu de décision important.
+			</p>
+
+			<h3>Shopping :</h3>
+
+			<p>
+				Dubaï est l'une des capitales du monde du shopping et jouit
+				d’une renommée internationale grâce à ses centres commerciaux
+				gigantesques et ses souks populaires. Le shopping à Dubaï
+				constitue l’une des distractions préférées des touristes. La
+				ville attire un grand nombre de visiteurs désirant faire du
+				shopping, qu'ils viennent des pays voisins ou d’autres régions
+				plus lointaines, telles que l’Europe de l’Est, l’Afrique et le
+				sous-continent indien.
+			</p>
+
+			<h3>Les projets :</h3>
+
+			<p>
+				Nakheel Tower (ex-Al Burj ou encore Tall Tower) était le projet
+				de construction d'une tour d'une hauteur dépassant le kilomètre.
+				Située entre Dubai Marina et Ibn Batuta, les travaux de
+				préparation des sols commencèrent en janvier 2008. Projet
+				plusieurs fois déplacé, il était prévu initialement sur Palm
+				Jumeirah puis sur le Waterfront. Ce dernier site fut rejeté car
+				la tour se trouverait alors dans l'axe des pistes du futur
+				aéroport de Jebel Ali21,22. La fin des travaux était prévue en
+				2014. En janvier 2008, la société Nakheel a annoncé la naissance
+				prochaine d’un projet appelé « The Universe ». Il s’agit d’un
+				archipel artificiel reproduisant les formes du soleil, de la
+				lune et des planètes du système solaire. Ce projet, dont ni le
+				coût, ni la date de fin des travaux n’ont été communiqués,
+				arrive alors que « The World » est en cours d’achèvement. Il
+				s’agit de la création de 300 îles artificielles au large des
+				côtes. Ces îles, dont les formes représentent les pays du monde
+				et qui abriteront résidences secondaires et hôtels de luxe,
+				couvrent 5,5 millions de mètres carrés23. Début des travaux en
+				2009 pour une fin prévue en 2015.
+			</p>
+		</div>
+	</body>
+	<html></html>
+</html>

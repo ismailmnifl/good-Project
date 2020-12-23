@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="styles.css" />
+		<script src="jquery-3.2.1.js"></script>
+		<script>
+			$(document).ready(function () {
+				$("#flip").click(function () {
+					$("#panel").slideToggle("slow");
+				});
+			});
+		</script>
+		<style>
+			.button {
+				background-color: #4caf50;
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				position: relative;
+				left: 600px;
+			}
+			#panel,
+			#flip {
+				padding: 5px;
+				text-align: center;
+				background-color: #e5eecc;
+				border: solid 1px #c3c3c3;
+			}
+			#panel {
+				padding: 50px;
+				display: none;
+			}
+			img {
+				max-width: 70%;
+				height: auto;
+			}
+			.definition {
+				padding: 5px;
+				margin: 20px;
+				text-align: center;
+				background-color: #e5eecc;
+				border: solid 1px #c3c3c3;
+			}
+			h3 {
+				color: black;
+			}
+			body {
+				margin: 0;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+
+			.topnav {
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			.topnav a {
+				float: left;
+				color: #f2f2f2;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-size: 17px;
+			}
+
+			.topnav a:hover {
+				background-color: #ddd;
+				color: black;
+			}
+
+			.topnav a.active {
+				background-color: #4caf50;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="topnav">
+			<a class="active" href="index.html">Home</a>
+			<a href="#news">News</a>
+			<a href="#contact">Contact</a>
+			<a href="#about">About</a>
+		</div>
+		<h3 style="font-size: 40px; position: relative; text-align: center">
+			Sydney
+		</h3>
+		<div style="font-weight: bold" id="flip">
+			cliquez ici pour voir les photos de Sydney
+		</div>
+		<div id="panel">
+			<img src="Sydney-image1.jpg" width="460" height="345" />
+			<img src="Sydney-image2.jpg" width="460" height="345" />
+		</div>
+
+		<div class="definition">
+			<h3>Définition :</h3>
+
+			<p>
+				Sydney est une ville du sud-est de l'Australie, située dans
+				l'État de Nouvelle-Galles du Sud, sur les rives de la mer de
+				Tasman. Avec une aire urbaine comprenant, en 2016, une
+				population de 5,25 millions d'habitants1 sur près de 12 300 km2,
+				Sydney est la ville la plus peuplée d'Australie, devant
+				Melbourne et Brisbane, ainsi que du continent océanien. Ses
+				habitants s'appellent les Sydneyites ou Sydneysiders en anglais,
+				et les Sydnéens en français. Un peuplement aborigène existait
+				sur le site depuis plusieurs millénaires. L'explorateur James
+				Cook accoste pour la première fois en Australie en 1770 sur le
+				site de Botany Bay. Première des colonies européennes
+				d'Australie, Sydney est fondée en 1788 à Sydney Cove (à
+				l'emplacement actuel de Circular Quay) par le capitaine Arthur
+				Phillip, commandant de la première flotte venant de
+				Grande-Bretagne, pour en faire une colonie pénitentiaire. La
+				découverte de gisements d'or dans l'État voisin du Victoria au
+				début de la seconde moitié du xixe siècle entraîne le
+				développement de la ville. En 1920, Sydney compte plus d'un
+				million d'habitants et s'étend bien au-delà de la baie de Port
+				Jackson, son site initial. Pendant la Seconde Guerre mondiale,
+				la ville sert de base pour les forces aériennes et navales
+				alliées. En mai et juin 1942, elle est victime d'un bombardement
+				par des sous-marins japonais qui détruisent le port..
+			</p>
+
+			<h3>Histoire :</h3>
+
+			<p>
+				À l'arrivée des premiers Européens, il y a 4 000 à 8 000
+				Aborigènes vivant dans la région de Sydney. Presque toutes les
+				traces de leur habitat disparaissent à cause de l'urbanisation
+				ultérieure. C'est le navigateur britannique James Cook qui
+				aperçut pour la première fois le site de l'actuelle Sydney,
+				qu'il nomma Port Jackson, en 1770, en l'honneur de Sir George
+				Jackson, un des Lords Commissaires de l'amirauté britannique. En
+				1788, le capitaine Arthur Phillip donna à l'endroit son nom
+				actuel (en l'honneur du ministre de l'Intérieur britannique
+				Thomas Townshend, premier vicomte de Sydney) qu'il avait choisi
+				pour conduire les prisonniers et établir une colonie
+				pénitentiaire destinée aux bagnards emmenés de Grande-Bretagne.
+				Des colons libres les suivent et, de 1800 à 1850, leur nombre
+				augmenta régulièrement au fur et à mesure qu'étaient mises en
+				valeur les richesses de la Nouvelle-Galles du Sud. En 1829, la
+				ville compte 16 000 habitants dont de nombreux militaires2.
+				D'autre part, la découverte de gisements d'or dans l'État voisin
+				du Victoria (1851) devait également favoriser la croissance
+				spectaculaire de la ville. En 1920, on compte plus d'un million
+				d'habitants et le petit comptoir des origines s'était étendu
+				bien au-delà des rivages de Port Jackson. Sydney accueille les
+				Jeux olympiques d'été de 2000. La ville est également en charge
+				l'organisation des journées mondiales de la jeunesse 2008.
+			</p>
+
+			<h3>Reconversion économique de Sydney :</h3>
+
+			<p>
+				En 2008, Sydney a été classée ville mondiale de classe « alpha +
+				» par le réseau d'étude sur la globalisation et les villes
+				mondiales (GaWC)8. Sydney est le plus grand centre commercial et
+				financier d’Australie et est un centre financier important sur
+				la zone Asie-Pacifique. L’Australian Stock Exchange et la banque
+				centrale d'Australie sont situés à Sydney, de même que les
+				sièges sociaux de quatre-vingt-dix banques et de plus de la
+				moitié des principales entreprises australiennes. On y trouve
+				aussi les sièges sociaux régionaux d’environ cinq cents sociétés
+				multinationales9. Le Sydney Futures Exchange (SFE) est l'un des
+				plus grands marchés à terme financiers et d’échanges d'options
+				de la zone Asie-Pacifique, avec 64,3 millions de contrats
+				échangés en 2005. En termes globaux, c'est le douzième plus
+				grand marché à terme dans le monde. En 2012, une enquête d'UBS
+				plaçait Sydney septième ville au monde en termes de salaire net
+				et quinzième au classement des villes les plus chères10,11. En
+				décembre 2005, le prix moyen d’un logement à Sydney était de 485
+				000 dollars australiens, soit le plus élevé parmi les
+				villes-capitales australiennes. Un rapport édité par l'OCDE en
+				novembre 2005, démontrait que l'Australie avait les prix
+				immobiliers les plus élevés du monde occidental une fois
+				rapportés aux rendements de location. D'après une étude du
+				groupe immobilier Knight Frank et de la Citi Private Bank,
+				Sydney est la huitième ville la plus chère du monde en ce qui
+				concerne les prix de l'immobilier de luxe, 13 100 euros par
+				mètre carré
+			</p>
+
+			<h3>Culture :</h3>
+
+			<p>
+				Sydney accueille de nombreux festivals et certaines des plus
+				grandes manifestations sociales et culturelles d'Australie. Il
+				s'agit notamment du festival de Sydney (Sydney Festival), le
+				plus grand festival d'art australien avec des représentations en
+				salle et des spectacles gratuits en plein air qui a lieu tout au
+				long du mois de janvier, la Biennale de Sydney (Biennale of
+				Sydney), fondée en 1973 et qui, les années paires, offre un
+				festival d'art contemporain, le Big Day Out, un festival
+				itinérant de musique rock originaire de Sydney, le Gay and
+				Lesbian Mardi Gras le long d'Oxford Street, le Festival du film
+				de Sydney (Sydney Film Festival) et de nombreux autres festivals
+				de film tels que les festivals de court-métrage Tropfest et
+				Flickerfest. Consacré exclusivement à l'exposition et la
+				collection d'art contemporain, à la fois de toute l'Australie et
+				du monde entier, Sydney dispose du Museum of Contemporary Art,
+				aussi connu sous l'acronyme MCA, dans le quartier des Rocks,
+				dans le centre de Sydney. Le Prix Archibald, considéré comme le
+				plus important prix de portrait d'Australie, est organisé par la
+				Galerie d'Art de Nouvelle-Galles du Sud. Le Sydney Royal Easter
+				Show (le salon royal de l'agriculture de Sydney à Pâques) est
+				organisé chaque année au parc olympique de Sydney, la finale de
+				l'Australian Idol se déroule sur les marches de l'Opéra et la
+				semaine australienne de la mode a lieu deux fois par an en
+				avril/mai et septembre. Les fêtes de la Nouvelle année et la
+				fête nationale à Sydney sont les plus importantes d'Australie.
+				Une enquête basée sur la fréquence des mots et des phrases dans
+				les médias, cite Sydney en numéro 9 sur une liste de villes de
+				mode en 2009. La ville est le site de la célèbre Rosemount
+				Australian Fashion Week qui se produit deux fois par an et est
+				le foyer de beaucoup de grandes maisons de couture
+				australiennes. La plupart des grands couturiers ont une
+				représentation importante à Sydney.
+			</p>
+
+			<h3>Art et loisirs :</h3>
+
+			<p>
+				Les institutions culturelles de Sydney incluent le fameux opéra
+				de Sydney. Il possède cinq salles, notamment une grande salle de
+				concert, pour l'opéra et pour du théâtre dramatique. C'est le
+				siège de l'Opera Australia, la troisième compagnie d'opéra la
+				plus active au monde. L'Orchestre symphonique de Sydney y joue
+				sous la baguette de son chef permanent Vladimir Ashkenazy.
+				L'Australian Chamber Orchestra a lui aussi une réputation
+				internationale. Sydney Opera House a été classé au Patrimoine de
+				l'Humanité par l'UNESCO lors de sa session 2007 qui s'est tenue
+				dans la ville de Christchurch en Nouvelle-Zélande. D'autres
+				lieux incluent le Sydney Town Hall, le City Recital Hall, le
+				State Theatre, le Theatre Royal, le Sydney Theatre, le Wharf
+				Theatre, le Capitol Theatre et le Lyric et Star Theatres at The
+				Star. Le conservatoire de musique de Sydney est adjacent aux
+				Jardins botaniques royaux de Sydney et s'occupe de la communauté
+				musicale australienne à travers l'éducation musicale et les
+				concours de l'Australian Music Examinations Board. La Sydney
+				Dance Company était, à la fin du xxe siècle, sous la direction
+				du chorégraphe Graeme Murphy. La Sydney Theatre Company a une
+				liste régulière d'interprètes locaux, tel que le dramaturge
+				David Williamson. En 2007, le New Theatre célèbre les 75 ans de
+				production à Sydney. D'autres compagnies théâtrales importantes
+				de Sydney incluent la Company B et la Griffin Theatre Company.
+				Depuis les années 1940 jusque dans les années 1970 le Sydney
+				Push, un groupe d'auteurs et d'activistes politiques dont les
+				membres incluent Germaine Greer, influence la ville culturelle
+				de la ville. L'Institut national des arts dramatiques, basé à
+				Kensington, en Nouvelle-Galles du Sud, lance d'anciens élèves de
+				notoriété internationale tels que Mel Gibson, Judy Davis, Baz
+				Luhrmann et Cate Blanchett. Le rôle de Sydney dans l'industrie
+				cinématographique a augmenté depuis l'ouverture en 1998 de Fox
+				Studios Australia.
+			</p>
+		</div>
+	</body>
+	<html></html>
+</html>

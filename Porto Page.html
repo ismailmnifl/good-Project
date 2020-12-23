@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="styles.css" />
+		<script src="jquery-3.2.1.js"></script>
+		<script>
+			$(document).ready(function () {
+				$("#flip").click(function () {
+					$("#panel").slideToggle("slow");
+				});
+			});
+		</script>
+		<style>
+			.button {
+				background-color: #4caf50;
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				position: relative;
+				left: 600px;
+			}
+			#panel,
+			#flip {
+				padding: 5px;
+				text-align: center;
+				background-color: #e5eecc;
+				border: solid 1px #c3c3c3;
+			}
+			#panel {
+				padding: 50px;
+				display: none;
+			}
+			img {
+				max-width: 70%;
+				height: auto;
+			}
+			.definition {
+				padding: 5px;
+				margin: 20px;
+				text-align: center;
+				background-color: #e5eecc;
+				border: solid 1px #c3c3c3;
+			}
+			h3 {
+				color: black;
+			}
+			body {
+				margin: 0;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+
+			.topnav {
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			.topnav a {
+				float: left;
+				color: #f2f2f2;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-size: 17px;
+			}
+
+			.topnav a:hover {
+				background-color: #ddd;
+				color: black;
+			}
+
+			.topnav a.active {
+				background-color: #4caf50;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="topnav">
+			<a class="active" href="index.html">Home</a>
+			<a href="#news">News</a>
+			<a href="#contact">Contact</a>
+			<a href="#about">About</a>
+		</div>
+
+		<h3 style="font-size: 40px; position: relative; text-align: center">
+			Porto
+		</h3>
+		<div style="font-weight: bold" id="flip">
+			cliquez ici pour voir les photos de Porto
+		</div>
+		<div id="panel">
+			<img src="porto-image1.jpg" width="460" height="345" />
+			<img src="porto-image2.jpg" width="460" height="345" />
+		</div>
+
+		<div class="definition">
+			<h3>Définition :</h3>
+
+			<p>
+				Porto est une ville du Portugal de 237 591 habitants et environ
+				1,2 million pour le Grand Porto (chiffres 2011). L'aire urbaine
+				de Porto, quant à elle, compte près de 1,8 million d'habitants.
+				ce qui en fait la seconde agglomération du pays après Lisbonne.
+				Les deux villes ont souvent rivalisé par le passé. Elle est la
+				capitale de la région Nord. Elle est connue pour le vin de
+				Porto, ses monuments et ses ponts sur le Douro. Porto, de par
+				son histoire de négoce du vin avec le Royaume-Uni, semble avoir
+				été influencée par ce pays et par une activité commerciale
+				importante. Un adage évoque le caractère des différentes villes
+				portugaises : « Pendant que Lisbonne se fait belle, Coimbra
+				étudie, Braga prie et Porto travaille ». Les habitants de Porto
+				sont appelés Portuenses (en français, on dit « Portuan ») et,
+				d'après la spécialité locale, les tripes à la mode de Porto, les
+				Tripeiros. Les Portistas sont les supporters du plus grand club
+				de la ville le FC Porto.
+			</p>
+
+			<h3>Histoire :</h3>
+
+			<p>
+				Durant les siècles qui suivent la chute de l'Empire romain, la
+				ville connaît plusieurs invasions, notamment par les Suèves, les
+				Wisigoths, les Normands et les Maures1. En 858, Porto est pillée
+				par le chef viking Hasting2. Avec l'essor de la ville se
+				développe une seigneurie féodale, qui, au fil du temps, se fait
+				appeler « Portugal ». Le comté de Portugal va du Minho au Douro.
+				Porto fait partie du royaume de Castille depuis le début du xie
+				siècle1. En 1096, Alphonse VI de Castille l'octroie à sa fille
+				naturelle Thérèse, mariée avec Henri de Bourgogne. Leur fils,
+				Alphonse Henri, est le premier souverain portugais. Le xive
+				siècle voit la ville se ceindre de murs d'enceinte massifs en
+				pierre qui protègent la ville médiévale, d'une part, et la zone
+				portuaire, d'autre part1. Le centre historique est ainsi protégé
+				par les murailles dites « fernandines », du nom de Dom Fernando
+				sous le règne duquel elles ont été achevées en 13761. En 1415,
+				sous l'égide d'Henri le Navigateur, un des illustres fils de la
+				ville, une importante expédition est mise sur pied pour la prise
+				de Ceuta. La ville de Porto, chargée de l'approvisionnement de
+				la flotte royale, est alors lourdement mise à contribution et
+				doit se démunir de la plupart de ses vivres. Après le départ des
+				soldats, les habitants doivent se contenter des aliments
+				restants, soit les tripes et les abats, difficiles à conserver
+				lors de campagnes militaires. C'est ainsi que par la suite le
+				qualificatif de tripeiros (mangeurs de tripes) est utilisé pour
+				désigner les habitants de Porto.[réf. nécessaire]
+			</p>
+
+			<h3>Reconversion économique de Porto :</h3>
+
+			<p>
+				Le Portugal comme le porto (Vinho do Porto), tirent leur nom de
+				la ville, port tourné vers le Douro. et aussi Les industries
+				textiles (coton), métallurgiques (fonderies), chimiques
+				(pneumatiques), alimentaires (conserveries), du cuir, de la
+				céramique ainsi que l'artisanat (orfèvrerie de Gondomar, à 7 km)
+				constituent l'essentiel de l'activité de Porto. La création du
+				port de Leixoes, doublant le port du Douro qui souffrait de
+				l'ensablement périodique du fleuve, a offert un remarquable
+				débouché aux productions industrielles.
+			</p>
+
+			<h3>Lieux est Patrimoine bati :</h3>
+
+			<p>
+				Le centre historique est déclaré Patrimoine mondial par l'UNESCO
+				en 19963. Il comporte de nombreux bâtiments d'exception et
+				présente une richesse architecturale marquée par les périodes
+				romane, gothique, Renaissance, baroque, néoclassique et moderne
+				* la Torre dos Clérigos (tour des Clercs), réalisée par Nicolau
+				Nasoni,<br />
+				* le musée d'art contemporain de la Fondation Serralves<br />
+				* la cathédrale avec le palais épiscopal. Cette
+				église-forteresse du xiie siècle a subi de profondes
+				modifications aux xviie et xviiie siècles.<br />
+				* le pont Dom-Luís, reliant Porto à Vila Nova de Gaia, construit
+				par Théophile Seyrig et la Société Willebroeck entre 1881 et
+				1886.<br />
+				* Le Café Guarany, café très connu et fréquenté de Porto (décor
+				inspiré par la tribu des indiens Guaranis)
+			</p>
+
+			<h3>situation géographique :</h3>
+
+			<p>
+				Située au nord du Portugal sur la façade atlantique et sur le
+				rio Douro, Porto est la capitale de la région Nord, sous-région
+				Grand Porto, district de Porto et la Grande Aire Métropolitaine
+				de Porto (GAM). La GAM de Porto inclut, entre autres, les
+				municipalités de Vila Nova de Gaia, Matosinhos, Maia, Espinho,
+				Santa Maria da Feira, Arouca, São João da Madeira, Vila do
+				Conde, Póvoa de Varzim, Valongo, Gondomar.
+			</p>
+		</div>
+	</body>
+	<html></html>
+</html>
